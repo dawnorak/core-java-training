@@ -65,4 +65,5 @@ public class Main {
         //Printing the average age of students
         double averageAge = students.stream().mapToInt(Student::getAge).average().orElse(0);
         System.out.println("Average age of students: " + averageAge);
+    }
 }
